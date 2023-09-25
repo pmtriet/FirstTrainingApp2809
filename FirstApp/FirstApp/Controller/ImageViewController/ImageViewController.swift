@@ -22,8 +22,8 @@ class ImageViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.title = "ImageViewController"
-        // Do any additional setup after loading the view.
+        self.title = "Image Controller"
+        
     }
     
 }

@@ -21,30 +21,29 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1Vr-xl-cGj">
-                    <rect key="frame" x="161" y="466" width="92" height="35"/>
+                    <rect key="frame" x="140" y="412" width="134" height="35"/>
                     <state key="normal" title="Button"/>
-                    <buttonConfiguration key="configuration" style="filled" title="Click me"/>
+                    <buttonConfiguration key="configuration" style="filled" title="Change Image"/>
                     <connections>
                         <action selector="changeImageButton:" destination="-1" eventType="touchUpInside" id="dHC-Ye-KYu"/>
                     </connections>
                 </button>
-                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="MainViewImage" translatesAutoresizingMaskIntoConstraints="NO" id="pQ6-bU-u2C">
-                    <rect key="frame" x="53" y="256" width="309" height="176"/>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="749" image="MainViewImage" translatesAutoresizingMaskIntoConstraints="NO" id="pQ6-bU-u2C">
+                    <rect key="frame" x="0.0" y="133" width="414" height="245"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="176" id="Ps8-hr-rds"/>
-                        <constraint firstAttribute="width" constant="309" id="QUy-cE-N0q"/>
+                        <constraint firstAttribute="width" secondItem="pQ6-bU-u2C" secondAttribute="height" multiplier="103:61" id="A1C-zD-AkH"/>
                     </constraints>
                 </imageView>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
-                <constraint firstItem="pQ6-bU-u2C" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="53" id="3LR-g0-pGl"/>
+                <constraint firstItem="pQ6-bU-u2C" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="3LR-g0-pGl"/>
                 <constraint firstItem="1Vr-xl-cGj" firstAttribute="top" secondItem="pQ6-bU-u2C" secondAttribute="bottom" constant="34" id="TNa-DG-vHO"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="pQ6-bU-u2C" secondAttribute="trailing" constant="52" id="ak2-PG-gAa"/>
-                <constraint firstItem="1Vr-xl-cGj" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="161" id="eCE-zS-wVr"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="bottom" secondItem="1Vr-xl-cGj" secondAttribute="bottom" constant="361" id="gAi-Kd-mk1"/>
-                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="1Vr-xl-cGj" secondAttribute="trailing" constant="161" id="qkT-Gy-GKs"/>
+                <constraint firstItem="pQ6-bU-u2C" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="85" id="VHt-ZY-6Kz"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="pQ6-bU-u2C" secondAttribute="trailing" id="ak2-PG-gAa"/>
+                <constraint firstItem="1Vr-xl-cGj" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="140" id="eCE-zS-wVr"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="1Vr-xl-cGj" secondAttribute="trailing" constant="140" id="qkT-Gy-GKs"/>
             </constraints>
             <point key="canvasLocation" x="139.13043478260872" y="20.758928571428569"/>
         </view>
