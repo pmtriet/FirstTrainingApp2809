@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C08EE552AC17C72002522BF /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C08EE532AC17C72002522BF /* HomeViewController.swift */; };
+		1C08EE562AC17C72002522BF /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C08EE542AC17C72002522BF /* HomeViewController.xib */; };
+		1C08EE5B2AC1804E002522BF /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C08EE592AC1804E002522BF /* ImageViewController.swift */; };
+		1C08EE5C2AC1804E002522BF /* ImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C08EE5A2AC1804E002522BF /* ImageViewController.xib */; };
 		1CF4864A2AC16DB3004D6E14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF486492AC16DB3004D6E14 /* AppDelegate.swift */; };
 		1CF4864C2AC16DB3004D6E14 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF4864B2AC16DB3004D6E14 /* SceneDelegate.swift */; };
 		1CF4864E2AC16DB3004D6E14 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF4864D2AC16DB3004D6E14 /* ViewController.swift */; };
@@ -36,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C08EE532AC17C72002522BF /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		1C08EE542AC17C72002522BF /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		1C08EE592AC1804E002522BF /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		1C08EE5A2AC1804E002522BF /* ImageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageViewController.xib; sourceTree = "<group>"; };
 		1CF486462AC16DB3004D6E14 /* FirstApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirstApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CF486492AC16DB3004D6E14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1CF4864B2AC16DB3004D6E14 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -76,6 +84,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C08EE512AC17C28002522BF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1C08EE572AC17FF3002522BF /* ImageViewController */,
+				1C08EE522AC17C3B002522BF /* HomeViewController */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1C08EE522AC17C3B002522BF /* HomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1C08EE532AC17C72002522BF /* HomeViewController.swift */,
+				1C08EE542AC17C72002522BF /* HomeViewController.xib */,
+			);
+			path = HomeViewController;
+			sourceTree = "<group>";
+		};
+		1C08EE572AC17FF3002522BF /* ImageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1C08EE592AC1804E002522BF /* ImageViewController.swift */,
+				1C08EE5A2AC1804E002522BF /* ImageViewController.xib */,
+			);
+			path = ImageViewController;
+			sourceTree = "<group>";
+		};
 		1CF4863D2AC16DB3004D6E14 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +134,7 @@
 		1CF486482AC16DB3004D6E14 /* FirstApp */ = {
 			isa = PBXGroup;
 			children = (
+				1C08EE512AC17C28002522BF /* Controller */,
 				1CF486492AC16DB3004D6E14 /* AppDelegate.swift */,
 				1CF4864B2AC16DB3004D6E14 /* SceneDelegate.swift */,
 				1CF4864D2AC16DB3004D6E14 /* ViewController.swift */,
@@ -231,9 +267,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C08EE5C2AC1804E002522BF /* ImageViewController.xib in Resources */,
 				1CF486562AC16DB5004D6E14 /* LaunchScreen.storyboard in Resources */,
 				1CF486532AC16DB5004D6E14 /* Assets.xcassets in Resources */,
 				1CF486512AC16DB3004D6E14 /* Main.storyboard in Resources */,
+				1C08EE562AC17C72002522BF /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +298,9 @@
 			files = (
 				1CF4864E2AC16DB3004D6E14 /* ViewController.swift in Sources */,
 				1CF4864A2AC16DB3004D6E14 /* AppDelegate.swift in Sources */,
+				1C08EE5B2AC1804E002522BF /* ImageViewController.swift in Sources */,
 				1CF4864C2AC16DB3004D6E14 /* SceneDelegate.swift in Sources */,
+				1C08EE552AC17C72002522BF /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
