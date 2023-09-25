@@ -20,8 +20,13 @@ class ViewController: UIViewController {
     }
 
     @IBAction func changeClick(_ sender: Any) {
+        if imageView.image == UIImage(named: "anh")//tham khao cach kiem tra ten anh de tao ra cau lenh dieu khien if else
+        {
         imageView.image = UIImage(named: "anhdep")
             
+        } else {
+            imageView.image = UIImage(named: "anh")
+        }
     }
     
     
